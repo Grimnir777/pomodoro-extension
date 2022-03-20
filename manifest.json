@@ -6,11 +6,11 @@
 
   "browser_action": {
     "default_title": "Pomodoro",
-    "default_icon": "productivity.png",
-    "default_popup": "popup.html"
+    "default_icon": "assets/images/productivity.png",
+    "default_popup": "src/popup/popup.html"
   },
   "background": {
-    "scripts": [ "background.js" ],
+    "scripts": [ "src/background/background.js" ],
     "persistent": true
   },
   "permissions": [
